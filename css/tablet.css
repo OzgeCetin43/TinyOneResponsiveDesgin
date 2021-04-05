@@ -1,0 +1,55 @@
+.cover #header {
+    width: 100%;
+}
+
+.cover #header {
+    margin-bottom: 100px;
+}
+
+.cover .description .description-title, .feature .feature-title, .pricing-and-trial .pricing-and-trial-title {
+    font-size: 20px;
+}
+
+.cover .description .description-text, .feature .feature-description, .pricing-and-trial .pricing-and-trial-description {
+    font-size: 12px;
+    width: 70%;
+}
+
+.cover .description .description-btn {
+    width: 120px;
+    font-size: 10px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.pricing-and-trial .pricing-and-trial-info {
+    width: 90%;
+}
+
+@media(max-width:600px) {
+    .pricing-and-trial .pricing-and-trial-info {
+        flex-direction: column;
+    }
+
+    .our-works .our-works-items {
+        flex-direction: column;
+    }
+    
+    .our-works .our-works-description {
+        width: 70%;
+        font-size: 12px;
+    }
+    
+    .our-works .our-works-items .our-works-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contact .contact-channels {
+        flex-direction: column;
+    }
+    
+    .contact .contact-channels .contact-channel {
+        width: 100%;
+    }
+}

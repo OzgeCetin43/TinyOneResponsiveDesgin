@@ -1,0 +1,126 @@
+.cover {
+    padding: 10px;
+}
+
+.feature .feature-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature .feature-items .feature-item {
+    width: 100%;
+}
+
+.stats-and-testimonial .stats-and-testimonial-items {
+    flex-direction: column;
+}
+
+.stats-and-testimonial .stats-and-testimonial-items .stats-and-testimonial-item {
+    width: 80%;
+}
+
+@media(max-width: 320px) {
+    .cover {
+        padding: 5px;
+    }
+
+    .cover #header {
+        padding: 0;
+        margin-bottom: 60px;
+    }
+
+    .cover #header #navigation-bar i {
+        font-size: 10px;
+    }
+
+    .cover #header #navigation-bar .social-media-icons .social-media-icon {
+        margin-right: 4px;
+    }
+
+    .cover .description .description-title {
+        font-size: 15px;
+    }
+    
+    .cover .description .description-text {
+        font-size: 8px;
+        width: 70%;
+    }
+
+    .pricing-and-trial .pricing-and-trial-info .pricing-and-trial-info-item {
+        width: 100%;
+    }
+
+    .our-works .our-works-items {
+        width: 100%;
+    }
+
+    .our-works .our-works-items .our-works-item img {
+        width: 80%;
+    }
+
+    .our-works .our-works-items .our-works-item .our-work-item-info {
+        width: 224px;
+    }   
+
+    .our-team .our-team-members {
+        flex-direction: column;
+    }
+
+    .our-team .our-team-members .our-team-member {
+        width: 100%;
+    }
+
+    .contact .contact-channels {
+        width: 100%;
+    }
+
+    .contact .contact-area {
+        width: 100%;
+    }
+
+    .contact .contact-area a {
+        width: 80%;
+    }
+
+    #footer {
+        padding: 10px;
+    }
+
+    #footer .footer-email-update-area input:first-child {
+        padding: 8px;
+    }
+    
+    #footer .footer-email-update-area input:last-child {
+        padding: 8px;
+    }
+
+    #footer .footer-items ul {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:280px) {
+    .our-works .our-works-items .our-works-item .our-work-item-info {
+        width: 192px;
+    }
+
+    #footer .footer-email-update-area input:first-child {
+        font-size: 8px;
+    }
+    
+    #footer .footer-email-update-area input:last-child {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:240px) {
+    .our-works .our-works-items .our-works-item .our-work-item-info {
+        width: 160px;
+    }
+
+    .stats-and-testimonial .stats-and-testimonial-items .stats-and-testimonial-item {
+        width: 100%;
+    }
+}
